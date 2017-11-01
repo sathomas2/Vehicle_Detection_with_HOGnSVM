@@ -74,3 +74,4 @@ I believe that an end-to-end Deep Convolutional Network approach, like [YOLO](ht
   <img src="readme_images/YOLO.png"/>
 </figure>
  <p></p>
+ *The YOLO, or rather OOYL, image was taken from https://traciruffner.wordpress.com/2015/08/03/yolo-you-only-live-once/
