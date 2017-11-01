@@ -6,7 +6,7 @@
 In this repository, I'll make a first stab at detecting and tracking other vehicles on the road without resorting to Deep Learning. Namely, I'll train a Support Vector Machine classifier to detect cars. Using a video taken from a camera mounted on a car's hood, I'll use a sliding window approach to scan each frame of the video and detect where the classifier believes other cars may be, then use heatmaps to filter out false positives.
 
 
-In addition to the algorithm in vehicle_detection.py, the contents of this repository include two videos, test_video.mp4 to test the algorithm, and the longer project_video.mp4. The 'vehicles' directory contains 64x64 images of cars from the rear and the side. The 'novehicles' directory contains 64x64 images of patches of road and other scenes a camera mounted on the hood of a car might come across that aren't cars. The 'output_videos' directory contains my results. 
+In addition to the algorithm in vehicle_detection.py, the contents of this repository include two videos, test_video.mp4 to test the algorithm, and the longer project_video.mp4. The 'vehicles' directory contains 64x64 images of cars from the rear and the side. The 'novehicles' directory contains 64x64 images of patches of road and other scenes a camera mounted on the hood of a car might come across that aren't cars. The 'output_video' directory contains my results. 
 
 ### 1) Exploratory data analysis
 <figure>
